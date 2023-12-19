@@ -1,0 +1,44 @@
+/* .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+   */
+
+
+
+
+   .swiperParent {
+    @apply w-full h-full relative ; 
+
+ 
+    .mobileImageWrapper {
+      @apply relative md:hidden w-full aspect-[9/16]  ;
+    }
+    .desktopImageWrapper {
+      @apply relative max-md:hidden w-full aspect-[30/19]  ;
+    }
+    
+  }
+ 
