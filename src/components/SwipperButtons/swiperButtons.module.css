@@ -1,7 +1,0 @@
-.buttonWrapper{
-    @apply w-full px-3  flex justify-between absolute top-1/2 left-0 z-20 ;
-
-    & > .buttonElement {
-        @apply text-white select-none ;
-    }
-}
