@@ -1,4 +1,7 @@
 import type { Config } from 'tailwindcss'
+import { Oregano } from 'next/font/google';
+
+const {fontFamily} = require("tailwindcss/defaultTheme")
 
 const config: Config = {
   content: [
@@ -32,6 +35,9 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        oregano : ["var(--font-oregano)", ...fontFamily.sans]
+      },
     },
   },
   plugins: [],

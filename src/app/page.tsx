@@ -1,4 +1,4 @@
-import Cards from '@/components/cards'
+import Cards from '@/components/card'
 import Image from 'next/image'
 import CardDemo from './carddemo'
 
