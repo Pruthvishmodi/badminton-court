@@ -12,11 +12,15 @@ import Form from '@/components/Form';
 export default function Home() {
   return (
     <>
+      <Navbar />
+      <Banner />
+      <SimpleCard />
     <Navbar />
     <Banner/>
     {/* <Title/> */}
     <SimpleCard/>
       <CardDemo />
+    <Health/>
       <CardPage />
       <Form/>
       <Footer/>

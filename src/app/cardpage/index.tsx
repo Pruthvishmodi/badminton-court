@@ -2,6 +2,7 @@ import React from "react";
 import Card from "@/components/card";
 import Menu from "../../../public/image/hamburger-menu-icon.svg";
 import Arrow from "../../../public/curved-thin-arrow-left-to-top-icon.svg";
+import Title from "@/components/title";
 
 
 
@@ -48,16 +49,9 @@ const cardDetails = [
 
 const CardPage = () => {
   return (
-    <section className="py-9 bg-[#f5f4f3]">
-      <div className="flex flex-col justify-center items-center">
-        <h1 className="flex text-5xl hover:text-green-500 text-[#444444] justify-center font-oregano">
-        News and Articles
-        </h1>
-        <div>
-          <Arrow className="w-20 h-20 -rotate-6 fill-green-500" />
-        </div>
-      </div>
-      <div className="grid lg:grid-cols-3 items-center gap-4 px-container mx-auto py-9">
+    <section className="bg-white pb-9">
+      <Title title="News and Articles"/>
+      <div className="grid lg:grid-cols-3 items-center gap-4 px-container mx-auto py-20">
         {cardDetails.map((item, index) => (
           <Card key={index} data={item} />
         ))}
