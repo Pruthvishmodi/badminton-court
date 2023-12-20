@@ -8,6 +8,7 @@ import Title from '@/components/title';
 import Navbar from '@/components/Navbar';
 import Banner from '@/components/Banner';
 import Form from '@/components/Form';
+import SucessPage from './sucesspage';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
     <SimpleCard/>
       <CardDemo />
       <CardPage />
+      <SucessPage/>
       <Form/>
       <Footer/>
     </>
