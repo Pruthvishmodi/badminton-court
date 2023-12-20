@@ -68,21 +68,3 @@ const SimpleCard = () => {
 };
 
 export default SimpleCard;
-
-{
-  /* <div
-            key={val.id}
-            className="border-2 border-[#e1e2e4] shadow-sm flex flex-col text-center items-center justify-center py-5 px-8"
-          >
-            <div className="w-20 h-20 fill-green-500">{val.svg}</div>
-            <h4 className="py-4 text-lg hover:text-green-500 text-[#444444]">
-              {val.title}
-            </h4>
-            <div className="flex py-4  group-hover:hidden ">
-              <div className="rounded-full w-2 h-2 bg-slate-500"></div>
-              <div className="rounded-full w-2 h-2 bg-slate-500 mx-1"></div>
-              <div className="rounded-full w-2 h-2 bg-slate-500"></div>
-            </div>
-            <p className="text-sm text-[#444444] text-center hidden group-hover:flex">{val.dis}</p>
-          </div> */
-}

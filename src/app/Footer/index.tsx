@@ -4,9 +4,9 @@ import Twitter from "../../../public/image//x-social-media-logo-icon.svg";
 import LinkDin from "../../../public/image/linkedin-square-icon.svg";
 
 const socialMedia = [
-  { id: "1", svg: <FaceBook /> },
-  { id: "2", svg: <Twitter /> },
-  { id: "3", svg: <LinkDin /> },
+  { id: "1", svg: <FaceBook />, link: "https://www.facebook.com/yourpage" },
+  { id: "2", svg: <Twitter />, link: "https://www.twitter.com/yourpage" },
+  { id: "3", svg: <LinkDin />, link: "https://www.linkedin.com/in/yourprofile" },
 ];
 
 const links = [
@@ -39,12 +39,15 @@ const Footer = () => {
           </p>
           <div className="flex space-x-2 items-center">
             {socialMedia.map((val) => (
-              <div
+              <a
                 key={val.id}
+                href={val.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-8 h-8 fill-slate-400 hover:fill-[#2acd35] transition-colors duration-300 ease-in-out"
               >
                 {val.svg}
-              </div>
+              </a>
             ))}
           </div>
         </div>

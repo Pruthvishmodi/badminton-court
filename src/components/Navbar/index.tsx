@@ -36,19 +36,6 @@ const Navbar = () => {
     "Stories",
     "Shop",
   ];
-  //   useEffect(() => {
-  //     const onScroll = () => {
-  //       if (window.scrollY >= 40) {
-  //         navbarRef.current.classList.add("bg-opacity-100")
-  //       } else {
-  //         navbarRef.current.classList.remove("bg-opacity-100")
-  //       }
-  //     }
-  //     window.addEventListener("scroll", onScroll, false)
-  //     return () => {
-  //       window.removeEventListener("scroll", onScroll, false)
-  //     }
-  //   }, [])
   return (
     <nav
       className={`py-4 px-container w-full sticky top-0 z-10  ${
