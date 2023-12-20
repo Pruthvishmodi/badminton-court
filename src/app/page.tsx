@@ -10,6 +10,7 @@ import Banner from "@/components/Banner";
 import Health from "@/components/health";
 import Coffes from "@/components/coffees";
 import SucessPage from "./sucesspage";
+import Form from "@/components/Form";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <CardPage />
       <Coffes />
       <SucessPage />
+      <Form/>
       <Footer />
     </>
   );
