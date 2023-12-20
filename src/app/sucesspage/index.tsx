@@ -7,6 +7,7 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Navigation } from "swiper/modules";
+import Title from "@/components/title";
 
 const SucessPage = () => {
   const data = [
@@ -38,15 +39,8 @@ const SucessPage = () => {
   };
 
   return (
-    <section className="py-9 bg-[#f5f4f3] w-full px-container">
-    <div className="flex flex-col justify-center items-center">
-      <h1 className="text-3xl sm:text-4xl md:text-5xl hover:text-green-500 text-[#444444] font-oregano">
-        Success Story
-      </h1>
-      <div>
-        <Arrow className="w-16 h-16 sm:w-20 sm:h-20 -rotate-6 fill-green-500" />
-      </div>
-    </div>
+    <section className="pb-9 bg-[#f5f4f3] w-full px-container">
+    <Title title="Success Stories"/>
 
     <Swiper pagination={pagination} modules={[Pagination]} className="my-6 sm:my-12">
       {data.map((item, index) => (

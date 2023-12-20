@@ -18,10 +18,10 @@ export default function Home() {
       <Banner />
       <SimpleCard />
       <CardDemo />
-    <Health/>
+      <Health />
       <CardPage />
-      <Coffes/>
-      <SucessPage/>
+      <Coffes />
+      <SucessPage />
       <Footer />
     </>
   );
