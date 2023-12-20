@@ -18,10 +18,10 @@ const Card = ({ data }: Props) => {
         <div className="absolute top-0 -translate-y-1/3 items-center justify-center flex rounded-full bg-white fill-green-500 p-4">
           <div className="w-8 h-8">{data.svg}</div>
         </div>
-        <p className="text-lg hover:text-green-500 text-[#444444] ">
+        <h4 className="text-lg hover:text-green-500 text-[#444444] ">
           {data.title}
-        </p>
-          {data.dis && <p className="text-lg  text-[#444444] ">{data.dis}</p>}
+        </h4>
+          {data.dis && <p className="text-sm  text-[#444444] flex text-center ">{data.dis}</p>}
           {data.buttonText && (
             <button className="bg-green-500 text-white px-4 py-2 rounded-full">
               {data.buttonText}

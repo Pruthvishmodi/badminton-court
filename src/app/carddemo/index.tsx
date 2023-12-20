@@ -34,10 +34,10 @@ const index = () => {
         Do not wait for Tomorrow!
       </h1>
       <div >
-        <Arrow className="w-20 h-20 fill-green-500" />
+        <Arrow className="w-20 h-20 fill-green-500 -rotate-6" />
       </div>
       </div>
-      <div className="grid grid-cols-3 items-center gap-4 px-container mx-auto py-9">
+      <div className="grid lg:grid-cols-3 items-center gap-4 px-container mx-auto py-9">
         {cardData.map((item, index) => (
           <Card key={index} data={item} />
         ))}
