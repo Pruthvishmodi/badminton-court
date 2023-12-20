@@ -1,6 +1,15 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { Oregano } from 'next/font/google';
+
+const oregano = Oregano ({
+  style: ['normal'],
+  subsets: ["latin"],
+  variable: "--font-oregano",
+  preload: true,
+  weight: "400"
+})
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${oregano.variable}`}>{children}</body>
     </html>
   )
 }
