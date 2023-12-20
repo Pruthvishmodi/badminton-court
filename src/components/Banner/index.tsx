@@ -19,6 +19,7 @@ const Banner = () => {
       <SwiperSlide>
         <div className="relative w-full h-full">
           <Image
+            className="object-cover"
             src="/image/Banner1new.jpg" // Provide the path to your image in the public directory
             alt="Description of your image"
             fill

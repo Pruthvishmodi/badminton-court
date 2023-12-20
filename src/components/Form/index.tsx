@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Search from "../../../public/icons/cart.svg";
+import Search from "../../../public/icons/name.svg";
 const Form = () => {
   return (
     <div>
