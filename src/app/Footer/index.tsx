@@ -25,8 +25,8 @@ const links = [
 
 const Footer = () => {
   return (
-    <section className="bg-[#333] py-10">
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-4  px-container">
+    <section className="bg-[#333] py-9">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 px-container">
         {/* About Us */}
         <div>
           <h3 className="font-oregano text-[#2acd35] text-xl font-normal">
