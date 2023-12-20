@@ -1,19 +1,18 @@
-import Cards from '@/components/card'
-import Image from 'next/image'
-import CardDemo from './carddemo'
-import CardPage from './cardpage'
-import Footer from './Footer';
-import SimpleCard from './simpleCard';
-import Title from '@/components/title';
+import Cards from "@/components/card";
+import Image from "next/image";
+import CardDemo from "./carddemo";
+import CardPage from "./cardpage";
+import Footer from "./Footer";
+import SimpleCard from "./simpleCard";
+import Title from "@/components/title";
 
 export default function Home() {
   return (
     <>
-    {/* <Title/> */}
-    <SimpleCard/>
+      <SimpleCard />
       <CardDemo />
       <CardPage />
-      <Footer/>
+      <Footer />
     </>
   );
 }
