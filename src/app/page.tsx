@@ -9,6 +9,7 @@ import Navbar from '@/components/Navbar';
 import Banner from '@/components/Banner';
 import Form from '@/components/Form';
 import Health from '../components/health';
+import Coffes from '@/components/coffees';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <CardDemo />
     <Health />
       <CardPage />
+      <Coffes/>
       {/* <Form/> */}
       <Footer/>
     </>

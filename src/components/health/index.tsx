@@ -15,7 +15,7 @@ const Health = () => {
     const handleScroll = () => {
       const scrollY = window.scrollY || window.pageYOffset;
       const parallaxValue = scrollY * 0.5; 
-      // parallaxRef.current.style.backgroundPositionY = `calc(50% + ${parallaxValue}px)`;
+      parallaxRef.current.style.backgroundPositionY = `calc(50% + ${parallaxValue}px)`;
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -26,8 +26,8 @@ const Health = () => {
 
   return (
     <section style={sectionStyle} className='h-full w-full relative overflow-hidden' ref={parallaxRef}>
-      <div className="py-20 md:px-5 xl:px-80">
-        <h3 className="pt-16 px-4 font-oregano text-[52px] text-white xl:text-6xl">
+      <div className="py-20 md:px-5 xl:px-52">
+        <h3 className="pt-16 font-oregano text-[52px] text-white xl:text-6xl">
           3 months with a Health Coach
         </h3>
         <div className="pt-4">
