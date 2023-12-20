@@ -19,7 +19,7 @@ const Banner = () => {
       <SwiperSlide>
         <div className="relative w-full h-full">
           <Image
-            src="/Images/Banner1new.jpg" // Provide the path to your image in the public directory
+            src="/image/Banner1new.jpg" // Provide the path to your image in the public directory
             alt="Description of your image"
             fill
           />
@@ -42,7 +42,7 @@ const Banner = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Image
-          src="/Images/Banner2new.jpg" // Provide the path to your image in the public directory
+          src="/image/Banner2new.jpg" // Provide the path to your image in the public directory
           alt="Description of your image"
           fill
         />
