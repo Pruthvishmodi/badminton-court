@@ -8,6 +8,11 @@ import { Navigation } from "swiper/modules";
 
 const slides = [
   {
+    imageSrc: "/image/article_6.jpg",
+    title: "Who said workouts have to be tedious?",
+    description: "Badminton adds a touch of excitement to your wellness routine, turning each session into an exhilarating adventure. Unleash your inner virtuoso and redefine what it means to achieve peak fitness.",
+  },
+  {
     imageSrc: "/image/banner1new.jpg",
     title: "Dive into badminton",
     description:
@@ -15,13 +20,8 @@ const slides = [
   },
   {
     imageSrc: "/image/banner2new.jpg",
-    title: "Badminton Court",
-    description: "Welcome to badminton court",
-  },
-  {
-    imageSrc: "/image/banner1.jpg",
-    title: "Badminton Court",
-    description: "Welcome to badminton court",
+    title: "Delve into the sport of badminton",
+    description: "Foster optimal wellness through the refined fusion of agility and strategy in the world of badminton.",
   },
 ];
 

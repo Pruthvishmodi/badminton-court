@@ -3,9 +3,9 @@ import Image from "next/image";
 import Search from "../../../public/icons/name.svg";
 const Form = () => {
   return (
-    <div className="h-[100vh] relative  ">
-      <div className=" justify-center h-[50%]">
-        <div className="relative  w-full h-full">
+    <section className="h-[100vh] relative pb-28 pt-9  ">
+      <div className=" justify-center h-1/2">
+        <div className="relative w-full h-full">
           <Image
             src="/image/formimg.jpg" // Provide the path to your image in the public directory
             alt="Description of your image"
@@ -28,8 +28,8 @@ const Form = () => {
         </div>
       </div>
       <div className="h-[50%]">
-        <div className="w-full lg:px-container absolute top-[75%] lg:top-[60%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
-          <div className="bg-white rounded-lg lg:p-4">
+        <div className="w-full lg:px-container absolute top-[75%] lg:top-[60%] left-1/2 transform -translate-x-1/2 -translate-y-[62%] px-4 ">
+          <div className="bg-white rounded-xl lg:p-4">
             <div className="lg:mt-10 lg:flex gap-10">
               <div className="relative flex w-full">
                 <div className=" absolute  pointer-events-none ">
@@ -42,7 +42,7 @@ const Form = () => {
                 />
               </div>
 
-              <div className="relative flex w-full">
+              <div className="relative flex w-full py-6">
                 <div className=" absolute  pointer-events-none ">
                   <Search className="fill-green-500 h-6 w-6 m-3" />
                 </div>
@@ -52,6 +52,7 @@ const Form = () => {
                   placeholder="Enter your email"
                 />
               </div>
+              
               <div className="relative flex w-full">
                 <div className=" absolute  pointer-events-none ">
                   <Search className="fill-green-500 h-6 w-6 m-3" />
@@ -64,7 +65,7 @@ const Form = () => {
               </div>
             </div>
 
-            <div className=" flex flex-col justify-center relative">
+            <div className=" flex flex-col justify-center relative py-4">
               <div className=" absolute  pointer-events-none top-9 m-3">
                 <Search className="fill-green-500 h-6 w-6" />
               </div>
@@ -75,14 +76,14 @@ const Form = () => {
               ></textarea>
             </div>
             <div className="flex justify-center mt-1">
-              <button className="text-sm border-4 rounded-3xl  lg:p-3 p-2  bg-[#2acd35]   hover:bg-slate-600 text-white font-bold border-white text-center">
+              <button className="text-sm border-4 rounded-full px-6 py-3  bg-[#2acd35]   hover:bg-slate-600 text-white font-bold border-white text-center">
                 send Request
               </button>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

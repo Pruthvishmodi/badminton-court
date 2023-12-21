@@ -8,40 +8,40 @@ import Title from "@/components/title";
 
 const cardDetails = [
     {
-      imageUrl: "/image/hc_31-795x500.jpg",
+      imageUrl: "/image/article_7.jpg",
       svg: <Menu />,
-      title: "8 Most Underrated Workouts",
-      dis: "Whether you`re a diehard cruncher or stalwart planker, your ab workout could probably use a tune-up. "
+      title: "World Championships 2023",
+      dis: "BWF World Championships 2023 | PV Sindhu gets bye in first round, face tough draw ahead "
     },
     {
-      imageUrl: "/image/hc_31-795x500.jpg",
+      imageUrl: "/image/article_8.jpg",
       svg: <Menu  />,
-      title: "Underestimating workout music",
-      dis: "Whether you`re a diehard cruncher or stalwart planker, your ab workout could probably use a tune-up. "
+      title: "Championships: Rajiv Ouseph",
+      dis: "European Badminton Championships: Rajiv Ouseph and the Adcocks win gold in Denmark - BBC Sport "
     },
     {
-      imageUrl: "/image/hc_31-795x500.jpg",
+      imageUrl: "/image/article_9.jpg",
       svg: <Menu  />,
-      title: "Mistakes fighting with cellulitis",
-      dis: "Whether you`re a diehard cruncher or stalwart planker, your ab workout could probably use a tune-up. "
+      title: "Olympic gold in 2021",
+      dis: "The biggest stars of the sport will chase after Olympic gold in 2021, including Momota Kento, Chen Long, PV Sindhu and Okuhara Nozomi. But a couple of big names won't be there. "
     },
     {
-        imageUrl: "/image/hc_31-795x500.jpg",
+        imageUrl: "/image/article_10.jpg",
         svg: <Menu />,
-        title: "Eating breakfast cuts inches off?",
-        dis: "Whether you`re a diehard cruncher or stalwart planker, your ab workout could probably use a tune-up. "
+        title: "Parupalli Kashyap",
+        dis: "Canada Open 2023 badminton: Parupalli Kashyap makes early exit "
       },
       {
-        imageUrl: "/image/hc_31-795x500.jpg",
+        imageUrl: "/image/article_11.jpg",
         svg: <Menu  />,
-        title: "What secrets almonds hide",
-        dis: "Whether you`re a diehard cruncher or stalwart planker, your ab workout could probably use a tune-up. "
+        title: "Canada Open 2023 badminton",
+        dis: "Canada Open 2023 badminton: Parupalli Kashyap makes early exit "
       },
       {
-        imageUrl: "/image/hc_31-795x500.jpg",
+        imageUrl: "/image/article_12.jpg",
         svg: <Menu  />,
-        title: "Ginger is not just simple food",
-        dis: "Whether you`re a diehard cruncher or stalwart planker, your ab workout could probably use a tune-up. "
+        title: "National Championships",
+        dis: "Badminton: Ong out to pull off stunner in National Championships | The Star "
       },
     
   ];
