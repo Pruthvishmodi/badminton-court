@@ -14,7 +14,7 @@ const Card = ({ data }: Props) => {
         fill
         className="object-cover"
       />
-      <div className="absolute translate-y-[40%] group-hover:translate-y-0 duration-300 flex items-center flex-col mx-auto bottom-0 w-full bg-white gap-10 p-2 pt-16 py-10">
+      <div className="absolute translate-y-[40%] group-hover:translate-y-0 duration-300 flex items-center flex-col mx-auto bottom-0 w-full bg-white gap-12 p-2 pt-16 py-10">
         <div className="absolute top-0 -translate-y-1/3 items-center justify-center flex rounded-full bg-white fill-green-500 p-4">
           <div className="w-8 h-8">{data.svg}</div>
         </div>
