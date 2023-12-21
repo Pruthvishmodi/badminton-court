@@ -37,14 +37,14 @@ const SimpleCard = () => {
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8 py-6 group ">
         {data.map((data) => (
           <div className="group flex flex-col relative border w-full aspect-[4/3] overflow-hidden cursor-pointer">
-            <div className="absolute translate-y-[25%] lg:translate-y-[34%] group-hover:translate-y-0 duration-300 flex items-center flex-col mx-auto bottom-0 w-full bg-white gap-4 p-2 pt-16 py-10">
+            <div className="absolute translate-y-[25%] lg:translate-y-[34%] hover:translate-y-0 duration-300 flex items-center flex-col mx-auto bottom-0 w-full bg-white gap-4 p-2 pt-16 py-10">
               <div className="absolute top-0 -translate-y-1/3 items-center justify-center flex rounded-full bg-white fill-green-500 p-4">
                 <div className="w-16 h-16">{data.svg}</div>
               </div>
               <h4 className="text-lg hover:text-green-500 text-[#444444] ">
                 {data.title}
               </h4>
-              <div className="flex py-4  group-hover:hidden ">
+              <div className="flex py-4 group-hover:hidden ">
                 <div className="rounded-full w-2 h-2 bg-slate-500"></div>
                 <div className="rounded-full w-2 h-2 bg-slate-500 mx-1"></div>
                 <div className="rounded-full w-2 h-2 bg-slate-500"></div>
