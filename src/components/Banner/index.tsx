@@ -8,13 +8,13 @@ import { Navigation } from "swiper/modules";
 
 const slides = [
   {
-    imageSrc: "/image/Banner1new.jpg",
+    imageSrc: "/image/banner1new.jpg",
     title: "Dive into badminton",
     description:
       "A high-energy sport blending agility and strategy. Smash, drop, and rally your way to a fitter. Transform your reflection, embrace the thrill!",
   },
   {
-    imageSrc: "/image/Banner2new.jpg",
+    imageSrc: "/image/banner2new.jpg",
     title: "Badminton Court",
     description: "Welcome to badminton court",
   },
