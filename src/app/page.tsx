@@ -11,6 +11,7 @@ import Health from "@/components/health";
 import Coffes from "@/components/coffees";
 import SucessPage from "./sucesspage";
 import Form from "@/components/Form";
+import Form1 from '@/components/Form1'
 
 export default function Home() {
   return (
@@ -23,7 +24,8 @@ export default function Home() {
       <CardPage />
       <Coffes />
       <SucessPage />
-      <Form/>
+      {/* <Form/> */}
+      <Form1/>
       <Footer />
     </>
   );
