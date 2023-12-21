@@ -7,13 +7,22 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 // import required modules
-import { Navigation } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Banner = () => {
   return (
     <Swiper
+      spaceBetween={30}
+      centeredSlides={true}
+      autoplay={{
+        delay: 5000,
+        disableOnInteraction: false,
+      }}
+      pagination={{
+        clickable: true,
+      }}
       navigation={true}
-      modules={[Navigation]}
+      modules={[Navigation, Autoplay, Pagination]}
       className="h-[90vh]  bg-rose-300"
     >
       <SwiperSlide>
@@ -24,8 +33,14 @@ const Banner = () => {
             fill
           />
           <div className="absolute text-lg text-white  text-center w-2/5 h-3/5 bottom-9   max-md:hidden ">
-            <div className="text-6xl font-bold text-white"> Badminton Court</div>
-            <div className="text-lg text-white p-10"> welcom to badminton court</div>
+            <div className="text-6xl font-bold text-white">
+              {" "}
+              Badminton Court
+            </div>
+            <div className="text-lg text-white p-10">
+              {" "}
+              welcom to badminton court
+            </div>
             <div className="text-2xl text-white border-4 rounded-2xl mx-14 border-white text-center">
               <button>Explore</button>
             </div>
