@@ -37,10 +37,10 @@ const SimpleCard = () => {
   return (
     <section className=" px-container bg-white relative pb-16">
       <Title title=" Why settle when badminton coaching can propel you beyond mediocrity?" />
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8 py-6 group ">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8 py-6 ">
         {data.map((data, index) => (
-          <div key={index} className="group flex flex-col relative border w-full aspect-[4/3] overflow-hidden cursor-pointer">
-            <div className="absolute translate-y-[25%] lg:translate-y-[42%] hover:translate-y-0 duration-300 flex items-center flex-col mx-auto bottom-0 w-full bg-white gap-4 p-2 pt-16 py-10">
+          <div key={index} className="group flex flex-col relative border w-full aspect-[4/3] lg:aspect-[3/3] overflow-hidden cursor-pointer">
+            <div className="absolute translate-y-[42%] md:translate-y-[36%] lg:translate-y-[42%] hover:translate-y-0 duration-300 flex items-center flex-col mx-auto bottom-0 w-full bg-white gap-4 p-2 pt-16 py-10">
               <div className="absolute top-0 -translate-y-1/3 items-center justify-center flex rounded-full bg-white fill-green-500 p-4">
                 <div className="w-16 h-16">{data.svg}</div>
               </div>

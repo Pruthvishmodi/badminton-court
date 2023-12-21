@@ -13,14 +13,14 @@ const Coffes = () => {
 
   return (
     <section style={sectionStyle} className="h-full w-full px-container">
-      <div className="py-24 text-white flex flex-col text-center items-center hover:text-green-400">
+      <div className="py-24 text-white flex flex-col text-center items-center ">
          {/* <div className="w-16 h-16 fill-white flex"><BadMiton/></div> */}
         <div>
-          <h2 className="px-6 font-oregano text-5xl pt-8 ">
+          <h2 className="px-6 font-oregano text-5xl pt-8 hover:text-green-400">
             Huge Selection Of Green Coffees and Herbal Teas!
           </h2>
         </div>
-        <div className="px-6 text-base pt-6 pb-20">
+        <div className="px-6 text-base pt-6 pb-20 hover:text-green-400">
           <p>
             <span>
               Only our shop will take care of that you get the highest quality
