@@ -2,12 +2,11 @@
 import React from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import Title from "@/components/title";
 import { optimizeImage } from "next/dist/server/image-optimizer";
-
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const SucessPage = () => {
   const data = [
@@ -52,7 +51,16 @@ const SucessPage = () => {
     <section className="pb-9 bg-[#f5f4f3] w-full px-container">
       <Title title="Success Stories" />
 
-      <Swiper pagination={pagination} modules={[Pagination]} className="my-6 sm:my-12">
+      <Swiper spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Autoplay, Pagination, Navigation]} className="my-6 sm:my-12">
         {data.map((item, index) => (
           <SwiperSlide key={index} className="relative">
             <div className="flex flex-col sm:flex-row sm:py-2 gap-4 sm:gap-12">
