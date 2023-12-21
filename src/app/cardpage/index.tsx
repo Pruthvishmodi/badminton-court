@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "@/components/card";
 import Menu from "../../../public/image/hamburger-menu-icon.svg";
-import Arrow from "../../../public/curved-thin-arrow-left-to-top-icon.svg";
+import moduleName from '../../../public/image/article_12.jpg'
 import Title from "@/components/title";
 
 
@@ -14,25 +14,25 @@ const cardDetails = [
       dis: "BWF World Championships 2023 | PV Sindhu gets bye in first round, face tough draw ahead "
     },
     {
-      imageUrl: "/image/article_8.jpg",
+      imageUrl: "/image/Article_8.jpg",
       svg: <Menu  />,
       title: "Championships: Rajiv Ouseph",
       dis: "European Badminton Championships: Rajiv Ouseph and the Adcocks win gold in Denmark - BBC Sport "
     },
     {
-      imageUrl: "/image/article_9.jpg",
+      imageUrl: "/image/Article_9.jpg",
       svg: <Menu  />,
       title: "Olympic gold in 2021",
       dis: "The biggest stars of the sport will chase after Olympic gold in 2021, including Momota Kento, Chen Long, PV Sindhu and Okuhara Nozomi. But a couple of big names won't be there. "
     },
     {
-        imageUrl: "/image/article_10.jpg",
+        imageUrl: "/image/Article_10.jpg",
         svg: <Menu />,
         title: "Parupalli Kashyap",
         dis: "Canada Open 2023 badminton: Parupalli Kashyap makes early exit "
       },
       {
-        imageUrl: "/image/article_11.jpg",
+        imageUrl: "/image/Article_11.jpg",
         svg: <Menu  />,
         title: "Canada Open 2023 badminton",
         dis: "Canada Open 2023 badminton: Parupalli Kashyap makes early exit "

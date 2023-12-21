@@ -1,23 +1,24 @@
 import React from "react";
 import Card from "@/components/card";
 import BadMinton from "../../../public/image/shuttlecock-badminton-icon.svg";
+import Physical from '../../../public/image/Enhancement.jpg'
 import Title from "@/components/title";
 
 const cardData = [
   {
-    imageUrl: "/image/cardimage.jpg",
+    imageUrl: "/image/phycial.jpg",
     svg: <BadMinton />,
     title: "Physical Fitness Enhancement",
     buttonText: "More Info",
   },
   {
-    imageUrl: "/image/cardimage.jpg",
+    imageUrl: "/image/fitness.jpg",
     svg: <BadMinton />,
     title: "Physical Fitness Enhancement",
     buttonText: "More Info",
   },
   {
-    imageUrl: "/image/cardimage.jpg",
+    imageUrl: "/image/Enhancement.jpg",
     svg: <BadMinton />,
     title: "Physical Fitness Enhancement",
     buttonText: "More Info",

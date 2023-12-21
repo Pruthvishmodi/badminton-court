@@ -2,6 +2,7 @@ import React from "react";
 import Precision from "../../../public/image/Precision.svg";
 import Strategy from '../../../public/image/innovation-icon.svg';
 import Confidence from '../../../public/image/hand-protest-sign-icon.svg';
+import Performnce from '../../../public/image/parformance.svg'
 import Arrow from "../../../public/curved-thin-arrow-left-to-top-icon.svg";
 import Title from "@/components/title";
 
@@ -20,7 +21,7 @@ const data = [
   },
   {
     id: "3",
-    svg: <Precision />,
+    svg: <Performnce />,
     title: "Performance",
     dis: "Elevate your athletic prowess with professional guidance, transcending mediocrity and embracing a level of performance that demands attention.",
   },

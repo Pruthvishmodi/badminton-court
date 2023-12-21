@@ -12,7 +12,7 @@ const Card = ({ data }: Props) => {
         src={data.imageUrl}
         alt="Picture of the author"
         fill
-        className="object-cover"
+        className="object-contain"
       />
       <div className="absolute translate-y-[40%] group-hover:translate-y-0 duration-300 flex items-center flex-col mx-auto bottom-0 w-full bg-white gap-12 p-2 pt-16 py-10">
         <div className="absolute top-0 -translate-y-1/3 items-center justify-center flex rounded-full bg-white fill-green-500 p-4">
