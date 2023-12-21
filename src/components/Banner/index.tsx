@@ -4,7 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper/modules";
+import 'swiper/css/pagination';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const slides = [
   {
@@ -28,7 +29,17 @@ const slides = [
 const Banner = () => {
   return (
     <section className="relative h-[90vh]">
-  <Swiper navigation={true} modules={[Navigation]} className="h-full">
+  <Swiper spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]} className="h-full">
     {slides.map((slide, index) => (
       <SwiperSlide key={index}>
         <div className="relative h-full w-full">

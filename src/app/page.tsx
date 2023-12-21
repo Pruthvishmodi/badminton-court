@@ -23,7 +23,7 @@ export default function Home() {
       <CardPage />
       <Coffes />
       <SucessPage />
-      <Form/>
+      {/* <Form/> */}
       <Footer />
     </>
   );
