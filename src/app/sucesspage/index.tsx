@@ -29,7 +29,7 @@ const SucessPage = () => {
 
   const pagination = {
     clickable: true,
-    renderBullet: function (index, className) {
+    renderBullet: function (className) {
       return '<span class="' + className + '">' + "</span>";
     },
   };
