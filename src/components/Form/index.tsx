@@ -19,8 +19,8 @@ const Form = () => {
                   Free consulatation
                 </div>
                 <div className="lg:text-lg text-sm text-white p-4  text-center ">
-                  "Get ready to elevate your fitness game! It's time to focus on
-                  your health at the badminton club."
+                  Get ready to elevate your fitness game! Its time to focus on
+                  your health at the badminton club.
                 </div>
               </div>
             </div>
