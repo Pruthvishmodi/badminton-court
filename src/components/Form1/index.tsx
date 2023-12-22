@@ -19,7 +19,7 @@ const Form = () => {
       className=' pb-10 h-full w-full bg-black'
       style={{ backgroundImage: `url(${Image1.src})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
-       <Title title='Request a free consultation' textColor="white" />
+       <Title title='Register Here For One Day Free Training' textColor="white" />
       <div className='px-4 md:px-4 lg:px-16 2xl:flex 2xl:justify-center '>
         <Formik
           initialValues={{

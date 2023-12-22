@@ -16,8 +16,8 @@ export default function Home() {
       <Banner />
       <SimpleCard />
       <CardDemo />
-      <Health />
-      <CardPage />
+      {/* <Health /> */}
+      {/* <CardPage /> */}
       <Coffes />
       <SucessPage />
       <Form1/>

@@ -6,6 +6,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import 'swiper/css/pagination';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import moduleName from '../../../public/image/Banner4.jpg'
+
 
 const slides = [
   {
@@ -18,6 +20,12 @@ const slides = [
     title: "Dive into badminton",
     description:
       "A high-energy sport blending agility and strategy. Smash, drop, and rally your way to a fitter. Transform your reflection, embrace the thrill!",
+  },
+  {
+    imageSrc: "/image/Banner4.jpg",
+    title: "Master the Shuttlecock in 90 Days",
+    description:
+      "Dive into the world of badminton today and join our expert coaching program. In a short span of 90 days, experience a remarkable metamorphosis in your game, unveiling a refined player and strategist as you glance into the mirror.",
   },
   {
     imageSrc: "/image/banner2new.jpg",
@@ -57,7 +65,7 @@ const Banner = () => {
               {slide.description}
             </div>
             <div className="mt-4">
-              <button className="text-2xl text-white border-4 rounded-2xl py-4 px-8 border-white">
+              <button className="text-2xl text-white border-2 rounded-full py-3 px-16">
                 Explore
               </button>
             </div>
