@@ -85,7 +85,7 @@ const Form = () => {
               <div className='grid justify-center'>
                 <button
                   type='submit'
-                  className='bg-green-400 rounded-3xl px-6 py-3'
+                  className='bg-green-400 hover:bg-green-700 hover:text-white rounded-3xl px-6 py-3'
                   disabled={isSubmitting}
                 >
                   Send Request
