@@ -1,0 +1,7 @@
+.textWhite {
+  @apply text-white;
+}
+
+.textDark {
+  color: #444444;
+}

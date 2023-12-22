@@ -4,7 +4,7 @@ import { Formik, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import Image from 'next/image';
 import Image1 from '../../../public/image/formimg.jpg';
-import Title from '../title2';
+import Title from '../title';
 
 const Form = () => {
   const validationSchema = Yup.object().shape({
@@ -16,11 +16,11 @@ const Form = () => {
 
   return (
     <section
-      className=' py-10 h-full w-full'
+      className=' pb-10 h-full w-full bg-black'
       style={{ backgroundImage: `url(${Image1.src})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
-        <Title title='Request a free consultation' />
-      <div className='px-4 md:px-4 lg:px-16 2xl:flex 2xl:justify-center'>
+       <Title title='Request a free consultation' textColor="white" />
+      <div className='px-4 md:px-4 lg:px-16 2xl:flex 2xl:justify-center '>
         <Formik
           initialValues={{
             name: '',
