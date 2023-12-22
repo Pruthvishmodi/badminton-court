@@ -4,6 +4,8 @@ import Cart from "../../../public/icons/cart.svg";
 import Search from "../../../public/icons/search.svg";
 import Hamburger from "../../../public/icons/hamburger.svg";
 
+import Image from "next/image";
+
 const Navbar = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,19 +34,22 @@ const Navbar = () => {
     "Services",
     "Blog",
     "Events",
-    "Pages",
     "Stories",
-    "Shop",
+    
   ];
   return (
     <nav
-      className={`py-4 px-container w-full sticky top-0 z-10  ${
+      className={`py-4 px-container w-full sticky top-0 z-30  ${
         isScrolled ? "bg-white" : "bg-white"
       }`}
     >
       <div className="container mx-auto flex justify-between items-center ">
-        <div className="hover:text-[#2acd35] text-[#444444] font-bold text-2xl w-1/6">
-          Logo
+        <div className="hover:text-[#2acd35] text-[#444444] font-bold text-2xl  relative aspect-[4/1] h-14">
+          <Image
+          src="/image/Logo-4.jpg"
+          alt="logo"
+          fill
+          style={{objectFit:'contain'}}/>
         </div>
 
         {/* Hamburger menu for small screens */}
@@ -63,14 +68,6 @@ const Navbar = () => {
               {option}
             </a>
           ))}
-        </div>
-        <div className="hidden lg:flex gap-8">
-          <button className="rounded-full p-2 border-2 border-[#444444] hover:border-[#2acd35] h-10 w-10">
-            <Search className="stroke-black hover:stroke-[#2acd35]" />
-          </button>
-          <button className="hover:text-[#2acd35]">
-            <Cart className="h-9 w-9 stroke-black hover:stroke-[#2acd35]" />
-          </button>
         </div>
       </div>
 
