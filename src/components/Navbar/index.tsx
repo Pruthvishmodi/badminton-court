@@ -69,6 +69,14 @@ const Navbar = () => {
             </a>
           ))}
         </div>
+        <div className="hidden lg:flex gap-8">
+          <button className="rounded-full p-2 border-2 border-[#444444] hover:border-[#2acd35] h-10 w-10">
+            <Search className="stroke-black hover:stroke-[#2acd35]" />
+          </button>
+          <button className="hover:text-[#2acd35]">
+            <Cart className="h-9 w-9 stroke-black hover:stroke-[#2acd35]" />
+          </button>
+        </div>
       </div>
 
       {/* Navigation links for smaller screens */}
