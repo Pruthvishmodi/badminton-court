@@ -6,28 +6,31 @@ import "swiper/css";
 import "swiper/css/navigation";
 import 'swiper/css/pagination';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import moduleName from '../../../public/image/Banner4.jpg'
 
 
 const slides = [
   {
+    id:"1",
     imageSrc: "/image/article_6.jpg",
     title: "Who said workouts have to be tedious?",
     description: "Badminton adds a touch of excitement to your wellness routine, turning each session into an exhilarating adventure. Unleash your inner virtuoso and redefine what it means to achieve peak fitness.",
   },
   {
+    id:"2",
     imageSrc: "/image/banner1new.jpg",
     title: "Dive into badminton",
     description:
       "A high-energy sport blending agility and strategy. Smash, drop, and rally your way to a fitter. Transform your reflection, embrace the thrill!",
   },
   {
+    id:"3",
     imageSrc: "/image/Banner4.jpg",
     title: "Master the Shuttlecock in 90 Days",
     description:
       "Dive into the world of badminton today and join our expert coaching program. In a short span of 90 days, experience a remarkable metamorphosis in your game, unveiling a refined player and strategist as you glance into the mirror.",
   },
   {
+    id: "4",
     imageSrc: "/image/banner2new.jpg",
     title: "Delve into the sport of badminton",
     description: "Foster optimal wellness through the refined fusion of agility and strategy in the world of badminton.",
