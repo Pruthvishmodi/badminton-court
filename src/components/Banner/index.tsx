@@ -24,13 +24,13 @@ const slides = [
   },
   {
     id:"3",
-    imageSrc: "/image/Banner4.jpg",
+    imageSrc:"/image/Banner_4.jpeg",
     title: "Master the Shuttlecock in 90 Days",
     description:
       "Dive into the world of badminton today and join our expert coaching program. In a short span of 90 days, experience a remarkable metamorphosis in your game, unveiling a refined player and strategist as you glance into the mirror.",
   },
   {
-    id: "4",
+    id: "3",
     imageSrc: "/image/banner2new.jpg",
     title: "Delve into the sport of badminton",
     description: "Foster optimal wellness through the refined fusion of agility and strategy in the world of badminton.",
